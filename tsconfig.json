@@ -5,10 +5,10 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
-    "jsxImportSource": "solid-js",
     "jsx": "preserve",
+    "jsxImportSource": "solid-js",
     "strict": true,
-    "types": ["solid-start/env", "@testing-library/jest-dom"],
+    "types": ["vite/client", "solid-start/env", "@testing-library/jest-dom"],
     "baseUrl": "./",
     "paths": {
       "~/*": ["./src/*"]
